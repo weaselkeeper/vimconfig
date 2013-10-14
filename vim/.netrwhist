@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jrichardson/repos/repomonger/packaging/rpm'
+let g:netrw_dirhist_2='/home/jrichardson/repos/ansible/lib/ansible/inventory'
+let g:netrw_dirhist_3='/home/jrichardson/repos/ansible/lib/ansible/runner'
+let g:netrw_dirhist_4='/home/jrichardson/repos/forgetmenot/src'
+let g:netrw_dirhist_5='/home/jrichardson/repos/zabbix-scripts/zabbix-scripts/zabbix_server/scripts'
+let g:netrw_dirhist_6='/home/jrichardson/repos/nsi_misc/scripts/zabbix/zabbix_api'
+let g:netrw_dirhist_7='/usr/share/X11/xorg.conf.d'
+let g:netrw_dirhist_8='/home/jrichardson/Projects/Mine/distaff/src'
