@@ -25,7 +25,14 @@ set list
 
 call pathogen#infect()
 
-set noundofile
+" Needs 7.3 or better
+if version >= 703
+" Set a visible 80 column line
+ set cc=80
+" Don't use an undo file
+ set noundofile
+
+endif
 
 " Enable git plugin
 "set laststatus=2
@@ -157,9 +164,7 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 command Ctws %s/\s\+$//
 
 
-" Set a visible 80 column line
 
-set cc=80
 hi ColorColumn ctermbg=lightblue guibg=lightblue
 
 "if &diff
