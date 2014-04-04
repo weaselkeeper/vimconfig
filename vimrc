@@ -161,7 +161,7 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 " alias command to remove trailing whitespace that often comes along with a cut
 " and paste
-command Ctws %s/\s\+$//
+command Killtws %s/\s\+$//
 
 
 
