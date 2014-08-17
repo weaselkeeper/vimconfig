@@ -157,6 +157,10 @@ au BufRead,BufNewFile *.pp nmap <F8> :TagbarToggle<CR>
 "au BufRead,BufNewFile *.pp set foldmethod=indent
 
 
+" Add some go lang stuff
+au BufRead,BufNewFile *.go set filetype=go
+
+
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 " alias command to remove trailing whitespace that often comes along with a cut
