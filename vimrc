@@ -104,6 +104,20 @@ au BufNewFile *.py,*.pyw,*.c,*.h,*.hs  set fileformat=unix
 " Folding based on indentation: ``set foldmethod=indent``
 
 
+" Ruby specific tweaks
+au BufRead,BufNewFile *.rb, set shiftwidth=4
+au BufRead,BufNewFile *.rb, set smartindent
+au BufRead,BufNewFile *.rb, set expandtab
+au BufRead,BufNewFile *.rb, set tabstop=8
+au BufRead,BufNewFile *.rb, set textwidth=79
+au BufRead,BufNewFile *.rb, set encoding=utf-8
+au BufRead,BufNewFile *.rb, let ruby_highlight_all=1
+au BufRead,BufNewFile *.rb, set softtabstop=4
+" -*- mode: ruby; indent-tabs-mode: nil; -*-
+" vim:shiftwidth=2:tabstop=8:expandtab:textwidth=78:softtabstop=4:ai:
+
+
+
 " Python specific tweaks
 au BufRead,BufNewFile *.py,*.pyw set shiftwidth=4
 au BufRead,BufNewFile *.py,*.pyw set smartindent
