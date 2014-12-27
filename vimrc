@@ -50,7 +50,7 @@ fu Select_c_style()
         set expandtab
     en
 endf
-au BufRead,BufNewFile *.c,*.h call Select_c_style()
+au BufRead,BufNewFile *.c,*.h,*.ino call Select_c_style()
 au BufRead,BufNewFile Makefile* set noexpandtab
 
 " Use the below highlight group when displaying bad whitespace is desired.
