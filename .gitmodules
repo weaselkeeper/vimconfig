@@ -19,3 +19,6 @@
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "vim/bundle/vim-chef"]
+	path = vim/bundle/vim-chef
+	url = https://github.com/t9md/vim-chef.git
