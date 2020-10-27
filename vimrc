@@ -195,3 +195,8 @@ hi ColorColumn ctermbg=lightblue guibg=lightblue
 "colorscheme peaksea
 "endif
 "match ExtraWhitespace /\s\+\%#\@<!$/
+
+
+if filereadable(glob("~/.vimrc.local")) 
+    source ~/.vimrc.local
+endif
